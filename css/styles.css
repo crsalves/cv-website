@@ -1,7 +1,22 @@
-
 body{
-  background-color: #EAF6F6;
+  margin: 0;
+  background-color: #FFF;
 }
+
+h1{
+  margin-top: 0;
+}
+
+div{
+  background-color: #E4F9F5;
+
+}
+
+
+
+
+
+
 
 hr{
   border-style: none;
