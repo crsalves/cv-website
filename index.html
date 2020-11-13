@@ -1,106 +1,66 @@
-<!--Reference:
-https://archive.org/web/
-
-https://www.cs.dartmouth.edu/~thc/
-http://www.cs.cornell.edu/home/kleinber/
-https://www-cs-faculty.stanford.edu/~knuth/
-
-https://unicode-table.com/en/#ipa-extensions
-https://crop-circle.imageonline.co/
-http://www.pascalvangemert.nl/#/experiences
-
-css
-https://developer.mozilla.org/en-US/docs/Web/CSS/border-style
--->
-
-<!--Boilerplate
-    Use the vs code function to print this template
--->
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <meta charset="utf-8">
+  <title>Carla Alves</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
   <link rel="icon" href="favicon.ico">
-  <title>Carla's Personal Site</title>
-
 </head>
 
 <body>
-  <table cellspacing="20">
-    <td> <img src="https://avatars3.githubusercontent.com/u/43006731?s=460&u=0d2702ca5b04a56853437dd0317d5a6578b7e8cb&v=4" id="profile-photo" />
-    </td>
-    <td>
-      <div>
-        <h1>I'm Carla</h1>
-        <p><em>a Computer Science student</em> at <strong><a href="http://eecs.lassonde.yorku.ca/">York University</a></strong></p>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <div class="title-text">
+      <h1>I'm Carla.</h1>
+      <h2>a Computer Science student</h2>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
 
+  <div class="middle-container">
+    <div class="profile">
+      <img src="https://avatars3.githubusercontent.com/u/43006731?s=460&u=0d2702ca5b04a56853437dd0317d5a6578b7e8cb&v=4" id="profile-photo" />
+      <h2>Hello,</h2>
+      <p class="intro">I am a first year student at <strong><a href="http://eecs.lassonde.yorku.ca/">York University.</a></strong> Although I just started my university program this Fall/2020, I have been studying programming in a college for the
+        past two years... I ❤️ computer science.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My education</h2>
+      <div class="skill-row">
+        <ul>
+          <li><a href="https://www.yorku.ca/">York University (Toronto-ON)</a></li>
+          <li><a href="https://www.lasallecollege.com/">LaSalle College (Montreal-QC)</a></li>
+          <li><a href="https://www.fanshawec.ca/">Fanshawe College (London-ON)</a></li>
+        </ul>
 
       </div>
+      <h2>New career</h2>
+      <div class="skill-row">
 
-      <p>I am a first year student at York University. Although I just started my university program this Fall/2020, I have been studying programming in a college for the past two years.</p>
-    </td>
-  </table>
+        <h3>Programming</h3>
+        <p>I started learning to code when I was 33 years old because I was curious about computer languages. Soon after my first course of algorithm, I already wanted to change my career.</p>
+      </div>
 
-  <hr />
-  <h3>Education</h3>
-  <ul>
-    <li><a href="https://www.yorku.ca/">York University (Toronto-ON)</a></li>
-    <li><a href="https://www.lasallecollege.com/">LaSalle College (Montreal-QC)</a></li>
-    <li><a href="https://www.fanshawec.ca/">Fanshawe College (London-ON)</a></li>
-  </ul>
-  <hr />
-  <h3>Work Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2014-2016</td>
-        <td>Business Analyst at Ativa Comercial Hospitalar Ltda</td>
-      </tr>
-    </tbody>
-    <tfoot></tfoot>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love computer science as much as I do.</h3>
+      <p class="contact-message">Love computer science as much as I do? Let's talk about how awesome it is! We can exchange valuable information about coding.</p>
+      <a class="btn" href="mailto:contato.crs@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
 
-  </table>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <td>
-      <table>
-        <tbody>
-          <tr>
-            <td>Web Development</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Database</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-    </td>
-  </table>
-  <td>
-    <table>
-      <tr>
-        <td>Cooking</td>
-        <td>⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Painting</td>
-        <td>⭐</td>
-      </tr>
-    </table>
-  </td>
-  </table>
-  <hr>
-  <h3>Hobbies</h3>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact.html">Contact Me</a>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/carla-da-silva-alves">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/">GitHub</a>
+    <p class="copyright">© 2020 Carla Alves</p>
+  </div>
 </body>
 
 </html>
